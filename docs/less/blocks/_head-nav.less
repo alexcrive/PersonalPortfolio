@@ -1,0 +1,85 @@
+.menu {
+	
+	font-family: 'Noto Sans';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 2px;
+    padding-top: 5px;
+    top: 51px;
+    right: 0;
+    left: 0;
+    font-size: 18px;
+    @media (min-width: 768px) {
+		position: absolute;
+	}
+	@media (min-width: 1200px) {
+		font-size: 22px;
+		
+	}
+	ul.nav-list {
+		display: none;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		position: fixed;
+		z-index: 1;
+		background-color: rgba(11, 81, 136, .95);
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		@media (min-width: 768px) {
+			display: block;
+			position: absolute;
+			background: none;
+		}
+
+		&--open {
+			display: flex;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-align-items: center;
+			align-items: center;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+		}
+		li {
+			margin: 0;
+			margin-bottom: 40px;
+			padding: 0;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			@media (min-width: 768px) {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: inline-block;
+				margin-right: 105px;
+				&:nth-child(3) {
+					margin-right: 0;
+				}
+			}
+			a {
+				color: @white;
+				text-decoration: none;
+				text-transform: uppercase;
+				cursor: pointer;
+				&:hover, &:active, &:focus {
+					color: @yellow;
+				}
+			}
+		}
+
+
+
+	}
+
+	
+	
+}
+
+

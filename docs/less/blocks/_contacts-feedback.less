@@ -1,0 +1,83 @@
+.contacts__feedback {
+	font-family: 'Noto Sans';
+	padding-bottom: 21px;
+	@media (min-width: 1200px) {
+		padding-bottom: 44px;
+	}
+	.title {
+		color: @blue_contacts;
+		text-transform: uppercase;
+		font-size: 16px;
+		line-height: 28px;
+		font-weight: bold;
+	}
+
+	.adress {
+		color: @white;
+		font-size: 16px;
+		line-height: 28px;
+		border-bottom: 1px dotted;
+		text-decoration: none;
+		&:hover, &:active, &:focus {
+			color: @yellow;
+		}
+	}
+	.city {
+		color: @white;
+		font-size: 16px;
+		line-height: 28px;
+	}
+
+	.title-aress_margin_between {
+		margin-top: 16px;
+	}
+
+	.phone_margin {
+		margin-top: 20px;
+		@media (min-width: 1200px) {
+			margin-top: 0;
+		}
+	}
+
+}
+.social_network {
+
+	.title {
+		color: @blue_contacts;
+		text-transform: uppercase;
+		font-size: 16px;
+		line-height: 28px;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			display: inline-block;
+			margin-right: 26px;
+			
+			a {
+				font-size: 32px;
+				text-decoration: none;
+				color: @white;
+				-webkit-transition: all ease-in 0.3s;
+				   -moz-transition: all ease-in 0.3s;
+				    -ms-transition: all ease-in 0.3s;
+				     -o-transition: all ease-in 0.3s;
+				        transition: all ease-in 0.3s;
+				&:hover, &:active, &:focus {
+					color: @yellow;
+				}
+			}
+		}
+	}
+	.social_network__last-icon {
+		margin-right: 0;
+	}
+
+}	
+

@@ -1,0 +1,19 @@
+.menu-button {
+	color: @white;
+	display: block;
+	font-size: 38px;
+	position: absolute;
+	top: 22px;
+	right: 16px;
+	z-index: 2;
+	cursor: pointer;
+	&:hover, &:active, &:focus {
+		color: #0052c2;
+	}
+	@media (min-width: 768px) {
+		display: none;
+	}
+}
+.menu-button--fixed {
+	position: fixed;
+}
