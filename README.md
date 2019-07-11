@@ -3,6 +3,7 @@
 
 ### include tech: 
 * HTML/CSS 
+* mobile adaptive
 * Bootstrap 4
 * LESS
 * jquery
