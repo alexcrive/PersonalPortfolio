@@ -1,7 +1,7 @@
 # PersonalPortfolio
 ## My personal portfolio project
 
-### include tech: 
+### tech include: 
 * HTML/CSS 
 * mobile adaptive
 * Bootstrap 4
