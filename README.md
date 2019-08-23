@@ -11,6 +11,6 @@
 * fancybox, html5shiv 
 * MixItUp 
 * pagescroll2id
-* PHP mail sending(not work on Git pages), more here http://f0301643.xsph.ru/portfolio/tt2/
+* PHP mail sending(not work on Git pages), more here
 
 ### Preview: https://alexcrive.github.io/PersonalPortfolio/
